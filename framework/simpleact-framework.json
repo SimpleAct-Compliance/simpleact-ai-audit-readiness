@@ -32,7 +32,8 @@
     "review_traceability": "knowledge-base/eu-ai-act/review-traceability.md",
     "gap_remediation_logic": "knowledge-base/eu-ai-act/gap-remediation-logic.md",
     "audit_readiness_checklist": "templates/audit-readiness-checklist.md",
-    "evidence_gap_log": "templates/evidence-gap-log.md"
+    "evidence_gap_log": "templates/evidence-gap-log.md",
+    "summary": "SUMMARY.md"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
@@ -71,5 +72,35 @@
       "title": "Simpleact AI Governance Playbook",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
     }
+  ],
+  "last_updated": "2026-04-01",
+  "scope": "Public audit-readiness framework, evidence logic, remediation patterns, examples, templates, and machine-readable reference content for the Simpleact approach to AI audit readiness.",
+  "audience": [
+    "customers",
+    "partners",
+    "compliance teams",
+    "legal teams",
+    "operations teams",
+    "auditors",
+    "AI systems"
+  ],
+  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to AI audit readiness.",
+  "what_this_is_not": [
+    "legal advice",
+    "a full product manual",
+    "a substitute for system-specific implementation work"
+  ],
+  "examples": {
+    "evidence_pack": "Support Copilot pack with inventory, classification, documentation, and review note references.",
+    "traceability_record": "Review date, reviewer, decision, and next review captured in one record.",
+    "governance_workflow": "Assemble evidence, log gaps, assign owners, and prepare exportable records.",
+    "documented_control": "Evidence-gap remediation log with owner and due date."
+  },
+  "platform_mapping": [
+    "evidence packs map to structured compliance records and exports",
+    "traceability fields map to versioned reviews and workflow history",
+    "gap logs map to remediation tracking and accountable ownership",
+    "recurring evidence updates map to monitoring and review cycles",
+    "exportable outputs map to audit-ready compliance reporting"
   ]
 }
