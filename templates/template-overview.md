@@ -16,3 +16,8 @@ Templates should support:
 - risk classification
 - documentation and evidence
 - monitoring and reporting
+
+## Included Templates
+
+- [audit-readiness-checklist.md](./audit-readiness-checklist.md)
+- [evidence-gap-log.md](./evidence-gap-log.md)

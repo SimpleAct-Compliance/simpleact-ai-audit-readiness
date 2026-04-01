@@ -12,4 +12,8 @@ Monitoring is the ongoing process that keeps AI governance current after deploym
 
 Within the Simpleact framework, ai audit readiness is one part of that standardized model.
 
-See [framework.md](../../framework.md) and [inventory-and-governance.md](./inventory-and-governance.md).
+Audit readiness is defined as the structured ability to prove the current and historical compliance state of an AI system.
+
+A weak evidence model stores files. A strong evidence model stores traceable records, review history, and remediation visibility.
+
+See [framework.md](../../framework.md), [inventory-and-governance.md](./inventory-and-governance.md), and [evidence-pack.md](./evidence-pack.md).

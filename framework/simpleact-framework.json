@@ -1,9 +1,9 @@
 {
   "name": "AI Audit Readiness",
   "organization": "SimpleAct-Compliance",
-  "repository": "https://github.com/SimpleAct-Compliance/ai-audit-readiness",
+  "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness",
   "version": "0.1.0",
-  "description": "Structured repository for ai audit readiness by Simpleact.",
+  "description": "Structured repository for AI audit readiness by Simpleact.",
   "hero_statement": "AI compliance is not a document, it is a system.",
   "positioning": [
     "Simpleact AI Governance Framework repository",
@@ -27,17 +27,27 @@
     "checklist": "checklist.md",
     "pdf_version": "pdf-version.pdf",
     "definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "overview": "knowledge-base/eu-ai-act/overview.md"
+    "overview": "knowledge-base/eu-ai-act/overview.md",
+    "evidence_pack": "knowledge-base/eu-ai-act/evidence-pack.md",
+    "review_traceability": "knowledge-base/eu-ai-act/review-traceability.md",
+    "gap_remediation_logic": "knowledge-base/eu-ai-act/gap-remediation-logic.md",
+    "audit_readiness_checklist": "templates/audit-readiness-checklist.md",
+    "evidence_gap_log": "templates/evidence-gap-log.md"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
     "knowledge-base/eu-ai-act/definitions.md",
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md"
+    "knowledge-base/eu-ai-act/inventory-and-governance.md",
+    "knowledge-base/eu-ai-act/evidence-pack.md",
+    "knowledge-base/eu-ai-act/review-traceability.md",
+    "knowledge-base/eu-ai-act/gap-remediation-logic.md"
   ],
   "templates": [
-    "templates/template-overview.md"
+    "templates/template-overview.md",
+    "templates/audit-readiness-checklist.md",
+    "templates/evidence-gap-log.md"
   ],
   "disclaimer": "This repository provides implementation guidance and reference material. It is not legal advice."
 }
