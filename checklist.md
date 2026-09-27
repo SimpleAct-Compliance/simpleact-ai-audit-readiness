@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-Within the Simpleact framework, this checklist tests whether the evidence layer is strong enough to support audit readiness.
+Within the SimpleAct framework, this checklist tests whether the evidence layer is strong enough to support audit readiness.
 
 ## Inventory
 

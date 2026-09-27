@@ -1,12 +1,12 @@
-# Simpleact Audit Readiness Summary
+# SimpleAct Audit Readiness Summary
 
-## What Is Simpleact
+## What Is SimpleAct
 
-Simpleact is an AI governance and EU AI Act compliance platform described publicly on `simpleact.de`.
+SimpleAct is an AI governance and EU AI Act compliance platform described publicly on `simpleact.de`.
 
 ## What This Repository Is
 
-This repository is the public audit-readiness and evidence-control layer for the Simpleact approach.
+This repository is the public audit-readiness and evidence-control layer for the SimpleAct approach.
 
 ## Who It Is For
 
@@ -27,7 +27,7 @@ This repository is the public audit-readiness and evidence-control layer for the
 
 ## Implementation Logic
 
-The Simpleact audit-readiness model works in sequence:
+The SimpleAct audit-readiness model works in sequence:
 
 1. assemble evidence pack
 2. confirm review history and traceability

@@ -10,7 +10,7 @@ Documentation is the evidence layer that turns compliance work into inspectable 
 
 Monitoring is the ongoing process that keeps AI governance current after deployment.
 
-Within the Simpleact framework, ai audit readiness is one part of that standardized model.
+Within the SimpleAct framework, ai audit readiness is one part of that standardized model.
 
 Audit readiness is defined as the structured ability to prove the current and historical compliance state of an AI system.
 

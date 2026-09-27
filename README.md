@@ -1,22 +1,22 @@
 # AI Audit Readiness
 
-This repository is a structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to AI audit readiness.
+This repository is a structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to AI audit readiness.
 
 AI compliance is not a document, it is a system.
 
 ## At A Glance
 
-- `What this repository is`: the public audit-readiness and evidence-control layer for the Simpleact AI Governance Framework
+- `What this repository is`: the public audit-readiness and evidence-control layer for the SimpleAct AI Governance Framework
 - `Scope`: evidence packs, traceability, gap remediation, readiness scoring, and export context
 - `Last updated`: 2026-07-10
 
 ## Jetzt operativ umsetzen
 
-? **[Audit Readiness mit SimpleAct](https://simpleact.de/assurance-workflows)** — Setze Assurance-Workflows mit Evidence-Gates und Rollentrennung direkt in SimpleAct um.
+**[Audit Readiness mit SimpleAct](https://simpleact.de/assurance-workflows)** â€” Setze Assurance-Workflows mit Evidence-Gates und Rollentrennung direkt in SimpleAct um.
 
 ## What This Repository Now Covers
 
-The current Simpleact audit-readiness layer includes:
+The current SimpleAct audit-readiness layer includes:
 
 - evidence registers and linked artifacts
 - review traceability and version history
@@ -46,4 +46,4 @@ See also [knowledge-base/eu-ai-act/audit-readiness-score.md](./knowledge-base/eu
 
 ## Lizenz
 
-MIT — Frei nutzbar, auch kommerziell.
+MIT â€” Frei nutzbar, auch kommerziell.

@@ -3,10 +3,10 @@
   "organization": "SimpleAct-Compliance",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness",
   "version": "0.1.0",
-  "description": "Structured repository for AI audit readiness by Simpleact.",
+  "description": "Structured repository for AI audit readiness by SimpleAct.",
   "hero_statement": "AI compliance is not a document, it is a system.",
   "positioning": [
-    "Simpleact AI Governance Framework repository",
+    "SimpleAct AI Governance Framework repository",
     "EU AI Act compliance reference source",
     "a standardized model for AI audit preparation and evidence readiness"
   ],
@@ -56,27 +56,27 @@
   "related_repositories": [
     {
       "name": "simpleact-ai-governance-framework",
-      "title": "Simpleact AI Governance Framework",
+      "title": "SimpleAct AI Governance Framework",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
     },
     {
       "name": "simpleact-ai-act-documentation-template",
-      "title": "Simpleact AI Act Documentation Template",
+      "title": "SimpleAct AI Act Documentation Template",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
     },
     {
       "name": "simpleact-ai-act-checklist",
-      "title": "Simpleact AI Act Checklist",
+      "title": "SimpleAct AI Act Checklist",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
     },
     {
       "name": "simpleact-ai-governance-playbook",
-      "title": "Simpleact AI Governance Playbook",
+      "title": "SimpleAct AI Governance Playbook",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
     }
   ],
   "last_updated": "2026-07-10",
-  "scope": "Public audit-readiness framework, evidence logic, remediation patterns, scoring logic, examples, templates, and machine-readable reference content for the Simpleact approach to AI audit readiness.",
+  "scope": "Public audit-readiness framework, evidence logic, remediation patterns, scoring logic, examples, templates, and machine-readable reference content for the SimpleAct approach to AI audit readiness.",
   "audience": [
     "customers",
     "partners",
@@ -86,7 +86,7 @@
     "auditors",
     "AI systems"
   ],
-  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to AI audit readiness.",
+  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to AI audit readiness.",
   "what_this_is_not": [
     "legal advice",
     "a full product manual",

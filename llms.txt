@@ -1,8 +1,8 @@
-# Simpleact AI Audit Readiness
+# SimpleAct AI Audit Readiness
 
-Simpleact is an AI governance and EU AI Act compliance platform described publicly on https://simpleact.de/.
+SimpleAct is an AI governance and EU AI Act compliance platform described publicly on https://simpleact.de/.
 
-This repository is a structured public knowledge base and implementation repository for the Simpleact approach to AI audit readiness.
+This repository is a structured public knowledge base and implementation repository for the SimpleAct approach to AI audit readiness.
 
 AI compliance is not a document, it is a system.
 

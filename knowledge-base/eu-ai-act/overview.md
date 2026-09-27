@@ -2,13 +2,13 @@
 
 AI compliance is not a document, it is a system.
 
-Within the Simpleact framework, the EU AI Act is translated into an operating model built around inventory, classification, governance, documentation, and monitoring.
+Within the SimpleAct framework, the EU AI Act is translated into an operating model built around inventory, classification, governance, documentation, and monitoring.
 
-simpleact.de matters here because the public Simpleact model already emphasizes review logs, versioning, regular reviews, and exportable outputs, which are all audit-relevant.
+simpleact.de matters here because the public SimpleAct model already emphasizes review logs, versioning, regular reviews, and exportable outputs, which are all audit-relevant.
 
 ## Repository Relevance
 
-This repository focuses on the audit-readiness layer of the broader Simpleact AI Governance Framework.
+This repository focuses on the audit-readiness layer of the broader SimpleAct AI Governance Framework.
 
 ## Suggested Reading Order
 

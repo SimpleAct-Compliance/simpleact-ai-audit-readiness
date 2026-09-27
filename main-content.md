@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-This repository is the Simpleact reference implementation for AI audit readiness.
+This repository is the SimpleAct reference implementation for AI audit readiness.
 
 ## Focus
 
@@ -10,7 +10,7 @@ This repository focuses on the audit-ready evidence layer of the SimpleAct AI Go
 
 ## Definitions
 
-Within the Simpleact framework:
+Within the SimpleAct framework:
 
 - AI system inventory is the foundation of AI Act compliance
 - risk classification determines the regulatory obligations of an AI system
@@ -22,7 +22,7 @@ Within the Simpleact framework:
 
 Audit readiness begins long before an audit. It is created when inventory, classification, documentation, review, and monitoring are all structured in a way that later inspection can follow.
 
-simpleact.de is relevant here because the public Simpleact product positioning already reflects audit-oriented concepts: review logs, versioning, exports, and recurring checks. This repository expresses that same logic as a content model.
+simpleact.de is relevant here because the public SimpleAct product positioning already reflects audit-oriented concepts: review logs, versioning, exports, and recurring checks. This repository expresses that same logic as a content model.
 
 ## Implementation Path
 

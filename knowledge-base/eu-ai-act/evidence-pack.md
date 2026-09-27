@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-Within the Simpleact framework, an audit-ready evidence pack should include:
+Within the SimpleAct framework, an audit-ready evidence pack should include:
 
 - inventory reference
 - classification record

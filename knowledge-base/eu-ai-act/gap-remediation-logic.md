@@ -1,6 +1,6 @@
 # Gap Remediation Logic
 
-Within the Simpleact framework, audit readiness requires visible handling of gaps.
+Within the SimpleAct framework, audit readiness requires visible handling of gaps.
 
 That means:
 
