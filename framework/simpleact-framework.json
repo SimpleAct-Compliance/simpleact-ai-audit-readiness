@@ -112,7 +112,8 @@
   "auditable_today": {
     "2025-02-02": ["Art. 5 verbotene Praktiken", "Art. 4 KI-Kompetenz"],
     "2025-08-02": ["GPAI — beim Modellanbieter"],
-    "2026-08-02": ["Art. 50 Transparenz"]
+    "2026-08-02": ["Art. 50 Transparenz"],
+    "2026-12-02": ["Zwei neue verbotene Praktiken nach Art. 5 Buchst. ba und bb", "Ende der Übergangsfrist für die Markierung nach Art. 50 Abs. 2 bei Bestandssystemen"]
   },
   "not_yet_auditable_but_preparatory": {
     "2027-12-02": ["Hochrisiko nach Anhang III"],

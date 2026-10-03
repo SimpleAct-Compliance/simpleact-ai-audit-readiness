@@ -10,7 +10,7 @@ Die Klasse bestimmt, welche Nachweise in die Mappe gehören. Die Einstufung selb
 |---|---|
 | Inventareintrag | Register |
 | Einstufungsbogen mit Begründung und **Annahmen** | Einstufung |
-| Art.-5-Prüfung, alle acht Praktiken | Vorlage |
+| Art.-5-Prüfung, alle zehn Praktiken | Vorlage |
 | Art.-4-Schulungsnachweis, mit Inhalt | Vorlage |
 | Auslöserliste und letzte Prüfung | Prüfprotokoll |
 

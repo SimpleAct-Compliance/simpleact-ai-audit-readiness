@@ -29,7 +29,7 @@ Ohne Suchprotokoll ist jede Vollständigkeitsangabe eine Behauptung. Das ist der
 
 ## 3 Was heute prüfbar ist
 
-- [ ] **Art. 5**: alle acht Praktiken je Einsatzzweck geprüft, mit Datum
+- [ ] **Art. 5**: alle zehn Praktiken je Einsatzzweck geprüft, mit Datum
 - [ ] Bei einem Treffer: Entscheidung **und Nachweis der Umsetzung** liegen vor
 - [ ] **Art. 4**: Schulungsnachweis mit **Inhaltsangabe**, nicht nur Teilnahme
 - [ ] Art. 4: der Personenkreis stimmt mit dem Inventar überein
