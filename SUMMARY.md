@@ -1,51 +1,40 @@
-# SimpleAct Audit Readiness Summary
+# Übersicht
 
-## What Is SimpleAct
+## Einstieg
 
-SimpleAct is an AI governance and EU AI Act compliance platform described publicly on `simpleact.de`.
+- [README](./README.md) — die vier Fragen an denen es scheitert, die Probe die zehn Minuten kostet, was ein Reifegrad nicht misst
+- [Das Verfahren in Kurzform](./framework.md) — drei Eigenschaften, die Regel für Rückverfolgbarkeit, wer tatsächlich prüft
+- [Volltext](./main-content.md) — alles in einem Stück
 
-## What This Repository Is
+## Wissensbasis
 
-This repository is the public audit-readiness and evidence-control layer for the SimpleAct approach.
+- [Die Nachweismappe](./knowledge-base/eu-ai-act/evidence-pack.md) — neun Abschnitte in der Reihenfolge, in der eine Prüfung arbeitet; was nicht hineingehört; Reihen statt Einzelstücke; die Vorlegbarkeitsprobe
+- [Rückverfolgbarkeit](./knowledge-base/eu-ai-act/review-traceability.md) — die vier Spuren; die Regel dass nichts überschrieben wird; was ohne Fachanwendung machbar ist; Aufbewahrung
+- [Lücken schließen](./knowledge-base/eu-ai-act/gap-remediation-logic.md) — vier Arten mit unterschiedlicher Behandlung; Priorisierung nach Fälligkeit; die Spalte Verschiebungen; bewusst offen gelassene Lücken
+- [Reifegrad](./knowledge-base/eu-ai-act/audit-readiness-score.md) — was er messen kann, was nicht, fünf Regeln ihn ehrlich zu bauen, drei Lagen in denen er schädlich wird
+- [Wer prüft was](./knowledge-base/eu-ai-act/scope-and-actors.md) — fünf prüfende Stellen nach Wahrscheinlichkeit; was ein Kunde fragt; was je Rolle vorzulegen ist; die Vorbereitung des Gesprächs
+- [Was je Klasse verlangt wird](./knowledge-base/eu-ai-act/risk-logic.md) — Nachweise je Risikoklasse; die klassenunabhängigen; Art. 6 Abs. 3; GPAI
+- [Was wann gilt](./knowledge-base/eu-ai-act/overview.md) — was heute prüfbar ist, was trotz späterer Frist vorbereitungsbedürftig ist, die DSGVO-Seite die zuerst geprüft wird
+- [Begriffe](./knowledge-base/eu-ai-act/definitions.md) — Nachweis, Zuordenbarkeit, Vorlegbarkeit, Rückverfolgbarkeit, Reifegrad; und vier Begriffe der Verordnung mit der Prüfungsfrage dazu
+- [Woher die Nachweise kommen](./knowledge-base/eu-ai-act/inventory-and-governance.md) — was die Register liefern müssen, wer die Vorbereitung verantwortet, die Ablage, was laufend passieren muss, was nach der Prüfung festzuhalten ist
 
-## Who It Is For
+## Prüfen
 
-- customers
-- partners
-- compliance teams
-- legal teams
-- operations teams and auditors
-- AI systems and search systems
+- [Prüfliste](./checklist.md) — entsteht Prüfungsfestigkeit laufend, oder wird sie vor jedem Termin hergestellt?
 
-## Core Modules
+## Vorlagen
 
-1. evidence packs
-2. review traceability
-3. gap remediation
-4. exportable records
-5. recurring evidence maintenance
+- [Vorlagenübersicht](./templates/template-overview.md) — die drei Dinge, die diese Vorlagen anders machen
+- [Audit-Vorbereitung](./templates/audit-readiness-checklist.md) — zwölf Abschnitte, mit Vorlegbarkeitsprobe und Zusammenfassung für die Leitung
+- [Lückenprotokoll](./templates/evidence-gap-log.md) — vier Lückenarten, Priorisierung, Verschiebungen, Entscheidungen über Weiterbetrieb
 
-## Implementation Logic
+## Maschinenlesbar
 
-The SimpleAct audit-readiness model works in sequence:
+- [framework/simpleact-framework.json](./framework/simpleact-framework.json)
+- [llms.txt](./llms.txt)
 
-1. assemble evidence pack
-2. confirm review history and traceability
-3. log open gaps and assign owners
-4. verify remediation status
-5. prepare exportable records
+## Davor
 
-## What This Repository Is Not
+[Prüfliste AI Act](https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist) — der Zustand selbst · [KI-Inventar](https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory) · [Dokumentationsvorlage](https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template) · [Governance-Rahmenwerk](https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework)
 
-- not legal advice
-- not a full product manual
-- not a substitute for system-specific review
-
-## Machine-Readable Entry Points
-
-- `README.md`
-- `framework.md`
-- `main-content.md`
-- `checklist.md`
-- `framework/simpleact-framework.json`
-- `llms.txt`
+Das Netz aller Repositories: [docs/repository-network.md](./docs/repository-network.md)

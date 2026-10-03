@@ -1,14 +1,20 @@
 cff-version: 1.2.0
-title: AI Audit Readiness
+title: Audit-Vorbereitung
 message: "If you use this repository, please cite it as part of the SimpleAct AI Governance Framework."
 type: dataset
 authors:
   - family-names: SimpleAct-Compliance
 repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
 license: MIT
-abstract: "Structured repository for ai audit readiness by SimpleAct."
+abstract: "The difference between a state an organisation has reached and one it can show, under Regulation (EU) 2024/1689 and the GDPR. Covers the three properties an audit actually tests — attributability, traceability and producibility — the nine-section evidence pack in the order an audit works through it, the four audit trails that require nothing to be overwritten, the four kinds of gap and why provider-side gaps belong with procurement rather than the remediation list, and an honest account of what a readiness score cannot measure: it can only compute over the systems already in the register."
 keywords:
   - EU AI Act
+  - GDPR
+  - audit readiness
+  - evidence pack
+  - traceability
+  - gap remediation
+  - Article 14
+  - Article 25
   - AI governance
-  - AI compliance
   - SimpleAct

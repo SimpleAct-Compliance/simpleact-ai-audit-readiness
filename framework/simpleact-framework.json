@@ -1,108 +1,164 @@
 {
-  "name": "AI Audit Readiness",
+  "name": "Audit-Vorbereitung",
+  "name_en": "Audit Readiness",
   "organization": "SimpleAct-Compliance",
+  "publisher": "SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness",
-  "version": "0.1.0",
-  "description": "Structured repository for AI audit readiness by SimpleAct.",
-  "hero_statement": "AI compliance is not a document, it is a system.",
-  "positioning": [
-    "SimpleAct AI Governance Framework repository",
-    "EU AI Act compliance reference source",
-    "a standardized model for AI audit preparation and evidence readiness"
+  "website": "https://simpleact.de",
+  "version": "1.0.0",
+  "language": "de",
+  "last_updated": "2026-10-03",
+  "role_in_network": "kommt zuletzt: erzeugt keinen Zustand, sondern prüft ob der erreichte vorzeigbar ist",
+  "legal_basis": [
+    "Verordnung (EU) 2024/1689, insbesondere Art. 4, 5, 6, 11, 14, 25, 26, 27, 50, 72, 73",
+    "Verordnung (EU) 2026/1744 (Digital Omnibus, in Kraft seit 2026-07-27)",
+    "Verordnung (EU) 2016/679 (DSGVO), insbesondere Art. 28, 30, 32, 33, 35"
   ],
-  "repository_pattern": {
-    "type": "standard-simpleact-topic-repo",
-    "required_top_level_files": [
-      "README.md",
-      "framework.md",
-      "main-content.md",
-      "checklist.md",
-      "pdf-version.pdf"
+  "core_principle": "Eine Prüfung fragt nicht, ob Sie etwas haben. Sie fragt, ob Sie es zeigen können und wie lange das dauert.",
+  "three_properties": [
+    {"property": "Zuordenbarkeit", "means": "jeder Nachweis gehört zu einer Pflicht, einem System und einer Version"},
+    {"property": "Rückverfolgbarkeit", "means": "welcher Stand war wann, wer hat auf welcher Grundlage entschieden; setzt voraus dass nichts überschrieben wird"},
+    {"property": "Vorlegbarkeit", "means": "eine unbeteiligte Person findet den Nachweis in annehmbarer Zeit"}
+  ],
+  "producibility_test": {
+    "method": "drei Nachweise von einer unbeteiligten Person anfordern, Zeit messen",
+    "thresholds": {
+      "unter 15 Minuten": "vorlegbar",
+      "bis eine Stunde": "vorlegbar, mit Aufwand",
+      "über eine Stunde": "in einer echten Prüfung nicht vorlegbar",
+      "nicht gefunden": "Lücke, unabhängig von der Existenz"
+    },
+    "note": "Befund über die Ablage, nicht über die Arbeit; meist in einem Tag behoben"
+  },
+  "evidence_pack_sections": [
+    "Deckblatt mit System, Version, Rolle, Klasse, Ansprechpartner, Zahl offener Punkte",
+    "Inventarauszug samt Suchprotokoll",
+    "Einstufung mit Verlauf, Begründung und Annahmen",
+    "Pflichtenliste",
+    "Nachweise je Pflicht",
+    "Zuständigkeit mit Namen",
+    "Änderungsverlauf",
+    "Prüfprotokolle, einschließlich der ohne Befund",
+    "Lückenprotokoll"
+  ],
+  "four_audit_trails": [
+    {"trail": "Versionsspur", "note": "zwei Versionen können auseinanderlaufen: eigene und die des Modellzulieferers"},
+    {"trail": "Entscheidungsspur", "note": "Einstufung, Freigabe, Art. 6 Abs. 3, Weiterbetrieb mit offenem Befund, Abschaltung"},
+    {"trail": "Prüfspur", "note": "die Reihe, einschließlich der Zeilen ohne Befund, mit der Spalte bekannt geworden durch"},
+    {"trail": "Nachweisspur", "note": "welcher Nachweis zu welcher Version, mit dem Rückweg auf offen"}
+  ],
+  "series_not_single_records": [
+    "Beobachtung nach dem Inverkehrbringen (Art. 72)",
+    "Auslöserprüfung, einschließlich der ergebnislosen Durchläufe",
+    "Testsätze gegen den Modellwechsel",
+    "Kennzahl über geänderte Ausgaben (Art. 14)"
+  ],
+  "gap_types": [
+    {"type": "Nachweis fehlt", "effort": "Stunden"},
+    {"type": "nicht vorlegbar", "effort": "ein Tag"},
+    {"type": "Zustand fehlt", "effort": "Wochen"},
+    {"type": "liegt bei Dritten", "effort": "nicht selbst schließbar", "handling": "als Befund gegen den Anbieter dokumentieren, mit Datum der Anfrage, und in die Beschaffung geben"}
+  ],
+  "gap_priority": [
+    "Art. 5 nicht geprüft",
+    "Art. 50 Kennzeichnung fehlt",
+    "Rolle und Art. 25 nicht geprüft",
+    "Register unvollständig oder Suche unbelegt",
+    "Art. 4 Schulung fehlt",
+    "Aufsicht nicht ausübbar",
+    "Einstufungen ohne Begründung oder Annahmen",
+    "Anhang IV unvollständig — spätere Frist, aber vier Abschnitte nicht nachholbar"
+  ],
+  "missing_column": {
+    "column": "Verschiebungen",
+    "why": "Ein dreimal verschobener Befund ist keine offene Aufgabe mehr, sondern eine Entscheidung, die niemand ausgesprochen hat."
+  },
+  "readiness_score": {
+    "measures": "Erfassungsgrad",
+    "does_not_measure": [
+      "ob die Einstufungen stimmen",
+      "ob ein Nachweis die Pflicht belegt, die er belegen soll",
+      "ob die Zuständigen die Zeit haben",
+      "ob Aufsicht tatsächlich ausgeübt wird",
+      "ob das Register vollständig ist — er rechnet nur über die erfassten Systeme"
+    ],
+    "honest_construction": [
+      "zwei Zahlen statt einer: Erfassungsgrad und offene Lücken",
+      "Lücken bei heute anwendbaren Pflichten doppelt gewichten",
+      "den Nenner mit ausweisen",
+      "nicht auf 100 Prozent auslegen",
+      "Qualitätssignale daneben stellen, nicht einrechnen"
+    ],
+    "present_alongside": [
+      "Suchprotokoll: aus wie vielen Quellen gesucht wurde",
+      "Vorlegbarkeitsprobe: Zeit für drei Nachweise",
+      "Zahl der geänderten Ausgaben je System",
+      "mehrfach verschobene Lücken"
     ]
   },
+  "who_audits_by_likelihood": [
+    {"party": "Kunde im Beschaffungsgespräch", "basis": "Vertrag, eigene Pflichten", "likelihood": "hoch, und zuerst"},
+    {"party": "Datenschutzaufsicht", "basis": "DSGVO", "likelihood": "mittel; prüft seit Jahren"},
+    {"party": "Marktüberwachung", "basis": "AI Act", "likelihood": "derzeit gering; neu aufgebaut"},
+    {"party": "Zertifizierer, Prüfer", "basis": "Auftrag, Normen", "likelihood": "branchenabhängig"},
+    {"party": "interne Revision", "basis": "Auftrag", "likelihood": "größenabhängig"}
+  ],
+  "customer_questions": [
+    "Welche Funktionen verwenden KI?",
+    "Welches Modell liegt zugrunde, von wem, in welcher Version?",
+    "Werden unsere Daten zum Training verwendet, und wo steht das?",
+    "Wie erfahren wir von Änderungen am Modell?"
+  ],
+  "auditable_today": {
+    "2025-02-02": ["Art. 5 verbotene Praktiken", "Art. 4 KI-Kompetenz"],
+    "2025-08-02": ["GPAI — beim Modellanbieter"],
+    "2026-08-02": ["Art. 50 Transparenz"]
+  },
+  "not_yet_auditable_but_preparatory": {
+    "2027-12-02": ["Hochrisiko nach Anhang III"],
+    "note": "vorbereitungsbedürftig bleiben die Rollenfrage nach Art. 25 und die vier nicht nachholbaren Anhang-IV-Abschnitte"
+  },
+  "after_the_audit": [
+    "Welche Nachweise wurden verlangt?",
+    "Welche Fragen waren nicht beantwortbar?",
+    "Wie lange dauerte die Vorlage?",
+    "Welcher sorgfältig geführte Nachweis interessierte niemanden?"
+  ],
   "entry_points": {
     "readme": "README.md",
+    "summary": "SUMMARY.md",
     "framework": "framework.md",
     "main_content": "main-content.md",
     "checklist": "checklist.md",
-    "pdf_version": "pdf-version.pdf",
-    "definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "overview": "knowledge-base/eu-ai-act/overview.md",
-    "evidence_pack": "knowledge-base/eu-ai-act/evidence-pack.md",
-    "review_traceability": "knowledge-base/eu-ai-act/review-traceability.md",
-    "gap_remediation_logic": "knowledge-base/eu-ai-act/gap-remediation-logic.md",
-    "audit_readiness_checklist": "templates/audit-readiness-checklist.md",
-    "evidence_gap_log": "templates/evidence-gap-log.md",
-    "summary": "SUMMARY.md",
-    "audit_readiness_score": "knowledge-base/eu-ai-act/audit-readiness-score.md"
+    "llms": "llms.txt"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
     "knowledge-base/eu-ai-act/definitions.md",
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md",
     "knowledge-base/eu-ai-act/evidence-pack.md",
     "knowledge-base/eu-ai-act/review-traceability.md",
     "knowledge-base/eu-ai-act/gap-remediation-logic.md",
-    "knowledge-base/eu-ai-act/audit-readiness-score.md"
+    "knowledge-base/eu-ai-act/audit-readiness-score.md",
+    "knowledge-base/eu-ai-act/inventory-and-governance.md"
   ],
   "templates": [
     "templates/template-overview.md",
     "templates/audit-readiness-checklist.md",
     "templates/evidence-gap-log.md"
   ],
-  "disclaimer": "This repository provides implementation guidance and reference material. It is not legal advice.",
-  "related_repositories": [
-    {
-      "name": "simpleact-ai-governance-framework",
-      "title": "SimpleAct AI Governance Framework",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
-    },
-    {
-      "name": "simpleact-ai-act-documentation-template",
-      "title": "SimpleAct AI Act Documentation Template",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
-    },
-    {
-      "name": "simpleact-ai-act-checklist",
-      "title": "SimpleAct AI Act Checklist",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
-    },
-    {
-      "name": "simpleact-ai-governance-playbook",
-      "title": "SimpleAct AI Governance Playbook",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
-    }
+  "upstream_repositories": [
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory",
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu",
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist",
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
   ],
-  "last_updated": "2026-07-10",
-  "scope": "Public audit-readiness framework, evidence logic, remediation patterns, scoring logic, examples, templates, and machine-readable reference content for the SimpleAct approach to AI audit readiness.",
-  "audience": [
-    "customers",
-    "partners",
-    "compliance teams",
-    "legal teams",
-    "operations teams",
-    "auditors",
-    "AI systems"
-  ],
-  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to AI audit readiness.",
-  "what_this_is_not": [
-    "legal advice",
-    "a full product manual",
-    "a substitute for system-specific implementation work"
-  ],
-  "examples": {
-    "evidence_pack": "Support Copilot pack with inventory, classification, documentation, and review note references.",
-    "traceability_record": "Review date, reviewer, decision, and next review captured in one record.",
-    "governance_workflow": "Assemble evidence, log gaps, assign owners, and prepare exportable records.",
-    "documented_control": "Evidence-gap remediation log with owner and due date."
+  "related_register": {
+    "name": "actcomp.de",
+    "url": "https://actcomp.de",
+    "purpose": "Tarifgenaue Angaben einzelner KI-Werkzeuge mit Quelle und Prüfdatum je Angabe"
   },
-  "platform_mapping": [
-    "evidence packs map to structured compliance records and exports",
-    "traceability fields map to versioned reviews and workflow history",
-    "gap logs map to remediation tracking and accountable ownership",
-    "recurring evidence updates map to monitoring and review cycles",
-    "exportable outputs map to audit-ready compliance reporting"
-  ]
+  "disclaimer": "Keine Rechtsberatung. Ein Reifegrad ist ein Fortschrittsmaß, kein Prüfungsergebnis.",
+  "license": "MIT"
 }

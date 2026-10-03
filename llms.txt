@@ -1,28 +1,32 @@
-# SimpleAct AI Audit Readiness
+# SimpleAct — Audit-Vorbereitung
 
-SimpleAct is an AI governance and EU AI Act compliance platform described publicly on https://simpleact.de/.
+> Der Unterschied zwischen einem erreichten Zustand und einem vorzeigbaren: Nachweismappe, Rückverfolgbarkeit, und eine ehrliche Darstellung dessen, was ein Reifegrad nicht misst. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland — https://simpleact.de
 
-This repository is a structured public knowledge base and implementation repository for the SimpleAct approach to AI audit readiness.
+Kernaussage: Eine Prüfung fragt nicht, ob Sie etwas haben, sondern ob Sie es zeigen können und wie lange das dauert. Die vier Lücken, an denen es scheitert, sind keine Wissenslücken, sondern Folgen der Ablage: unvollständiges Register ohne belegte Suche, überschriebene Einstufungen, Nachweise in Postfächern, Zuständigkeit auf Abteilungsebene.
 
-AI compliance is not a document, it is a system.
+Drei Eigenschaften, die eine Prüfung testet: **Zuordenbarkeit** (jeder Nachweis gehört zu einer Pflicht, einem System, einer Version), **Rückverfolgbarkeit** (welcher Stand war wann, wer hat auf welcher Grundlage entschieden — setzt voraus, dass nichts überschrieben wird), **Vorlegbarkeit** (eine unbeteiligte Person findet den Nachweis in annehmbarer Zeit).
 
-Start here:
-- README.md
-- SUMMARY.md
-- framework.md
-- main-content.md
-- checklist.md
-- knowledge-base/eu-ai-act/evidence-pack.md
-- knowledge-base/eu-ai-act/review-traceability.md
-- templates/audit-readiness-checklist.md
-- framework/simpleact-framework.json
+Die Probe, die zehn Minuten kostet: Drei Nachweise von einer unbeteiligten Person anfordern, Zeit messen. Über eine Stunde heißt: in einer echten Prüfung nicht vorlegbar. Das ist ein Befund über die Ablage, nicht über die Arbeit, und meist in einem Tag behoben.
 
-Core meaning:
-- Audit readiness depends on evidence quality, traceability, remediation discipline, and exportable records.
-- Review history and open gaps should be visible and assigned.
-- This repository is implementation-focused and should be read together with the core repository https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework.
+Wer tatsächlich prüft, nach Wahrscheinlichkeit: **Kunden im Beschaffungsgespräch**, dann die Datenschutzaufsicht, dann die Marktüberwachung. Eine Mappe, die nur AI-Act-Pflichten enthält, deckt den wahrscheinlicheren Prüfungsgegenstand nicht ab.
 
-What this repository is not:
-- legal advice
-- a full product manual
-- a substitute for system-specific implementation work
+Heute prüfbar: Art. 5 und Art. 4 seit 2.2.2025, **Art. 50 seit 2.8.2026**. Anhang III erst ab **2.12.2027** (Digital Omnibus, Verordnung (EU) 2026/1744). Trotz späterer Frist vorbereitungsbedürftig: die Rollenfrage nach Art. 25 und die vier nicht nachholbaren Anhang-IV-Abschnitte.
+
+## Wissensbasis
+
+- [Die Nachweismappe](knowledge-base/eu-ai-act/evidence-pack.md): neun Abschnitte in der Reihenfolge, in der eine Prüfung von außen nach innen arbeitet; warum das Lückenprotokoll nicht fehlen darf, weil eine unbenannte Lücke zum schwereren Befund führt; was nicht hineingehört; welche Pflichten eine Reihe statt eines Einzelstücks brauchen; Vorlegbarkeitsprobe; Deckblatt mit der Zahl offener Punkte.
+- [Rückverfolgbarkeit](knowledge-base/eu-ai-act/review-traceability.md): die Regel, dass nichts überschrieben wird; vier Spuren (Version, Entscheidung, Prüfung, Nachweis); die Entscheidung über Weiterbetrieb mit offenem Befund, die fast immer fehlt; die Spalte „bekannt geworden durch"; was ohne Fachanwendung machbar ist; Aufbewahrung und warum Aufräumen die häufigste Ursache fehlender Spuren ist.
+- [Lücken schließen](knowledge-base/eu-ai-act/gap-remediation-logic.md): vier Lückenarten mit unterschiedlicher Behandlung, darunter die beim Dritten liegende, die als Befund gegen den Anbieter gehört und nicht in die eigene Liste; Priorisierung nach Fälligkeit und Wirkung in acht Rängen; die Spalte Verschiebungen; bewusst offen gelassene Lücken als Entscheidung; Weiterbetrieb.
+- [Reifegrad](knowledge-base/eu-ai-act/audit-readiness-score.md): acht messbare Signale; fünf Dinge die er nicht messen kann, vor allem die Vollständigkeit des Registers, weil er nur über die erfassten Systeme rechnet; fünf Regeln ihn ehrlich zu bauen, einschließlich ihn nicht auf 100 % auszulegen; was neben die Zahl gehört; drei Lagen in denen er schädlich wird.
+- [Wer prüft was](knowledge-base/eu-ai-act/scope-and-actors.md): fünf prüfende Stellen nach Wahrscheinlichkeit; die vier Fragen jedes Beschaffungsgesprächs; was je Rolle vorzulegen ist mit den fünf Zeilen die nur den Anbieter treffen; wer im Haus antwortet; drei Dinge die vor einem Prüfungsgespräch geklärt sein sollten, darunter dass Nichtwissen zulässig ist.
+- [Was je Klasse verlangt wird](knowledge-base/eu-ai-act/risk-logic.md): Nachweise je Risikoklasse einschließlich des Nachweises, dass ein Art.-5-Treffer auch umgesetzt wurde; die klassenunabhängigen Nachweise mit dem Suchprotokoll an erster Stelle; Art. 6 Abs. 3 mit Profiling-Prüfung und Übernahmequote; GPAI als Befund gegen den Anbieter.
+- [Was wann gilt](knowledge-base/eu-ai-act/overview.md): Fristen mit der Spalte „heute prüfbar"; was trotz späterer Frist vorbereitungsbedürftig ist; die DSGVO-Pflichten, die in der Praxis zuerst geprüft werden.
+- [Begriffe](knowledge-base/eu-ai-act/definitions.md): Nachweis mit fünf Bestandteilen, Zuordenbarkeit, Vorlegbarkeit mit Zeitschwellen, Rückverfolgbarkeit, Reifegrad; und vier Begriffe der Verordnung jeweils mit der Prüfungsfrage dazu.
+- [Woher die Nachweise kommen](knowledge-base/eu-ai-act/inventory-and-governance.md): was die Register liefern müssen; wer verantwortet, und warum der Prüfer der Mappe nicht zugeliefert haben darf; die Ablage als Hauptfaktor der Vorlegbarkeit; vier Dinge die laufend passieren müssen; was nach der Prüfung festzuhalten ist.
+
+## Vorlagen
+
+- [Audit-Vorbereitung](templates/audit-readiness-checklist.md) — zwölf Abschnitte, beginnend mit dem Suchprotokoll; Vorlegbarkeitsprobe mit Zeitmessung; Zusammenfassung für die Leitung; Nachbereitungsfragen
+- [Lückenprotokoll](templates/evidence-gap-log.md) — Lückentabelle mit Art, Grund und Verschiebungen; Priorisierung in acht Rängen; bewusst offene Lücken; Entscheidungen über Weiterbetrieb
+
+Keine Rechtsberatung. Stand: Oktober 2026. Lizenz: MIT.
